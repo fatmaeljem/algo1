@@ -1,0 +1,27 @@
+ALGORITHME read a sentence 
+var 
+stn:string:="full stack developer";
+sum.caracter:integer:=0;
+sum.words:integer:=0;
+sum.vowels:integer:=0;
+BEGIN 
+READ (stn);
+for (i=0 to i = len (stn))do 
+for (j=0 to j=len(stn)-1))do
+for (k=0 to k=len(stn))do
+if (string [i] "<>") then
+sum.caracter:=sum.caracter+1;
+end if 
+if (stn[j]= "and stn [j+1].isalpha()and j>0 )
+then sum.words:=sum.words+1;
+end if 
+if (stn[k] =( "a", "e", "i", "o" ,"u", )  )then
+sum.vowels :=sum.vowels+1;
+end if 
+end for
+end for 
+end for 
+write (sum.caracter);
+write (sum.words);
+write (sum.vowels);
+END
